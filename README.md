@@ -24,18 +24,23 @@ No external libraries are required for this project, making the setup straightfo
 git clone https://github.com/baruKreddy/pythonProject.git
 cd pythonProject
 
+```
+
 ### Usage
 Run the project by navigating to the project directory and executing the following command:
+```bash
 python main.py example_orders.json
+```
+
 Replace example_orders.json with the path to your input JSON file containing the order data. The script will then process the data and generate the customers.json and items.json files in the current directory.
 
-###Output Files
+### Ouput Files
 customers.json: A JSON file mapping customer phone numbers to customer names.
 items.json: A JSON file containing objects with item names as keys and objects with their price and total order count as values.
 
-###Contributing
+### Contributing
 Contributions are welcome. Please fork the repository and submit a pull request with your proposed changes. For significant changes, open an issue first to discuss what you would like to change.
 
-###License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
